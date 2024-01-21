@@ -719,7 +719,6 @@ img {
     align-items: center;
     justify-content: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
      
 }
 
@@ -727,6 +726,10 @@ img {
 .modal-close:focus {
     background-color: #404BBF;
     border: none;
+}
+
+.modal-soc-icon:hover,
+.modal-soc-icon:focus {
     fill: #FFFFFF;
 }
 
@@ -840,13 +843,14 @@ color: #8e8f99;
 }
 
 .span-privace {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
     fill: transparent;
 }
 
