@@ -722,8 +722,7 @@ img {
      
 }
 
-.modal-close:hover,
-.modal-close:focus {
+.modal-close:hover {
     background-color: #404BBF;
     border: none;
     fill: #FFFFFF;
