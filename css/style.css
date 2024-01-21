@@ -858,11 +858,10 @@ color: #8e8f99;
   position: relative;
 }
 
-.modal-check:checked + .span-privace {
-    background-color: var(--span-background-color);
+.modal-check:checked + label span {
+    background-color: #404bbf;
     border: none;
-    fill: var(--icon-color);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #F4F4FD;
 }
 
 
