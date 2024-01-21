@@ -858,7 +858,7 @@ color: #8e8f99;
   position: relative;
 }
 
-.modal-check:checked + .check-text span {
+.modal-check:checked + .span-privace {
     background-color: var(--span-background-color);
     border: none;
     fill: var(--icon-color);
