@@ -696,7 +696,7 @@ img {
 .modal-close {
     width: 24px;
     height: 24px;
-    background: #e7e9fc;
+    background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     margin-left: auto;
@@ -726,12 +726,9 @@ img {
 .modal-close:focus {
     background-color: #404BBF;
     border: none;
-}
-
-.modal-close:hover>.modal-soc-icon,
-.modal-close:focus>.modal-soc-icon {
     fill: #FFFFFF;
 }
+
 /*  */
 .is-hidden{
     visibility: none;
@@ -854,7 +851,7 @@ color: #8e8f99;
 
 .modal-field-text{
     margin-bottom: 16px;
-  position: relative;
+    position: relative;
 }
 
 .modal-check:checked + label span {
