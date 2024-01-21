@@ -724,13 +724,13 @@ img {
 
 .modal-close:hover,
 .modal-close:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
     border: none;
 }
 
 .modal-close:hover>.modal-soc-icon,
 .modal-close:focus>.modal-soc-icon {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 /*  */
